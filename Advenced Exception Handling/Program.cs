@@ -60,16 +60,6 @@ namespace Exception_Handling
                 Console.WriteLine(exception.Message);
             }
 
-            catch (FormatException exception)
-            {
-                Console.WriteLine(exception.Message);
-            }
-
-            catch (OutOfMemoryException exception)
-            {
-                Console.WriteLine(exception.Message);
-            }
-
         }
 
 
