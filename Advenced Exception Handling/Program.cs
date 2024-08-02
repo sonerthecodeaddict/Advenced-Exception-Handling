@@ -44,22 +44,6 @@ namespace Exception_Handling
             {
                 Console.WriteLine(exception.Message);
             }
-
-            catch (NullReferenceException exception)
-            {
-                Console.WriteLine(exception.Message);
-            }
-
-            catch (DivideByZeroException exception)
-            {
-                Console.WriteLine(exception.Message);
-            }
-
-            catch (FileNotFoundException exception)
-            {
-                Console.WriteLine(exception.Message);
-            }
-
         }
 
 
